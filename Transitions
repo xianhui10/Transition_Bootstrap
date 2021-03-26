@@ -1,0 +1,66 @@
+<html>
+<head>
+    <title>Transitions</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+<style>
+body {background-color: pink;
+     font-size: 20px;
+     font-family: Times, serif;
+}
+.icon-bar {
+  width: 100%;
+  background-color: #555;
+  overflow: auto;
+}
+
+.icon-bar a {
+  float: left;
+  width: 20%;
+  text-align: center;
+  padding: 12px 0;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 36px;
+}
+
+.icon-bar a:hover {
+  background-color: #000;
+}
+</style>
+</head>
+<body>
+<div class="icon-bar">
+  <a class="active" href="#">Home</a> 
+  <a href="#">Page 2</a> 
+  <a href="#">Page 1</a> 
+</div>
+<h1 style="text-align:center; color:black;"><strong>Transitions</strong></h1>
+    <ul style="border:5px dotted; color:black; height:70px; width:300px; ">
+    <br>
+        <a href="#" class="b1">Button 1</a>
+        <a href="#" class="b2">Button 2</a>
+        <a href="#" class="b3">Button 3</a>
+    </ul>
+<br>
+<br>
+<br>
+<div class="article">
+    <h2>Answer</h2>
+<p>
+    If I utilize the term "all", I can delete "color 0.2s linear" on the following code: "transition: background .3s ease, color 0.2s linear; " <br>
+    I will need to know the term when learning the transition. I know that ease starts at a slow speed, then becomes faster, and then ends at a slow speed. The liner keeps the same speed. Ease-in and ease-out are similar, but ease-in starts at a slow speed, and ease-in ends at a slow speed. The last item is the cubic-bezier, which specifies your transition appearance value.
+
+</p>
+</div>
+<h1 style="text-align:center; color:black;"><strong>Images</strong></h1>
+<div class="grow">
+    <img src="https://www.hitc.com/static/uploads/2020/10/Dog-challenge-1-1024x684.jpg" width="500" height="400">&nbsp;&nbsp;
+    <img src="https://images.fineartamerica.com/images/artworkimages/mediumlarge/2/happy-dog-running-outdoors-purple-collar-pet-photography.jpg" width="500" height="400">&nbsp;&nbsp;
+</div>
+<div class="fadein">
+    <img src="https://www.dogslife.com.au/wp-content/uploads/2018/09/1-4-624x416.jpg" width="500" height="400">&nbsp;&nbsp;
+    <img src="https://t2.ea.ltmcdn.com/en/images/6/8/9/happy_dog_names_male_and_female_2986_orig.jpg" width="500" height="400">&nbsp;&nbsp;
+</div>
+</body>
+</html>
